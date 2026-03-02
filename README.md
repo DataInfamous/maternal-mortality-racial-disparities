@@ -8,11 +8,6 @@ This project presents an epidemiologic analysis of age-adjusted maternal mortali
 
 Maternal mortality is a critical indicator of population-level health equity and health system performance.
 
-
-## Trend in Relative Disparity (Black vs White)
-The figure below illustrates the age-adjusted Black–White maternal mortality ratio from 2018–2024.
-
-![Black-White Maternal Mortality Ratio](black_white_ratio_trend.png)
 ---
 ## Public Health Significance
 
