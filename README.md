@@ -8,6 +8,9 @@ This project presents an epidemiologic analysis of age-adjusted maternal mortali
 
 Maternal mortality is a critical indicator of population-level health equity and health system performance.
 
+The figure below displays the temporal trend in the age-adjusted Black–White maternal mortality ratio (CDC WONDER, 2018–2024). Ratios above 1 indicate disproportionate risk among Black women relative to White women.
+
+![Maternal Mortality Ratio](ratio.png)
 ---
 ## Public Health Significance
 
