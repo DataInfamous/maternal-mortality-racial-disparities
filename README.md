@@ -45,7 +45,7 @@ A retrospective descriptive analysis was conducted using annual national mortali
 
 Temporal trends were assessed using ordinary least squares (OLS) regression, including a Year × Race interaction term to evaluate differences in trend slopes.
 
-Analyses are descriptive and do not establish causality.
+Findings are descriptive and should not be interpreted as causal.
 
 ---
 
@@ -53,7 +53,7 @@ Analyses are descriptive and do not establish causality.
 
 - Maternal mortality increased sharply in 2021 during the COVID-19 pandemic.
 - Rates declined in 2022–2024; however, the Black–White disparity ratio increased in 2023.
-- The increase in relative disparity was driven by faster declines among White mothers rather than worsening outcomes among Black mothers.
+- The increase in relative disparity in 2023 appears to be driven by sharper post-pandemic declines in mortality among White mothers rather than a proportional worsening among Black mothers.
 - Across the study period, Black maternal mortality was consistently approximately three times higher than White maternal mortality.
 
 ---
@@ -71,3 +71,10 @@ Analyses are descriptive and do not establish causality.
 - Ordinary Least Squares regression
 - CDC WONDER data extraction
 - Jupyter Notebook
+
+## Limitations
+- CDC WONDER data are aggregated and do not allow individual-level risk adjustment.
+
+- Potential reporting delays or classification changes may affect recent years.
+
+- Race categories are restricted to available reporting classifications.
