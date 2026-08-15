@@ -4,7 +4,7 @@
 
 ## Overview
 
-This project presents an epidemiologic analysis of age-adjusted maternal mortality rates in the United States from 2018 through 2024. The analysis focuses on racial disparities between Black and White populations.
+This analysis extends CDC WONDER maternal mortality data through 2024, capturing post-pandemic trends not covered in prior reporting. The 2023 increase in the Black–White relative disparity ratio — despite declining absolute rates for both groups — represents a finding absent from coverage based on the 2022 CDC data release.
 
 Maternal mortality is a critical indicator of population-level health equity and health system performance.
 
@@ -16,7 +16,7 @@ The figure below displays the temporal trend in the age-adjusted Black–White m
 
 Maternal mortality is widely used as a sentinel indicator of healthcare system performance, access to care, and structural inequities. Persistent racial disparities in maternal outcomes reflect complex interactions between social determinants of health, healthcare quality, and systemic inequity.
 
-Understanding both absolute and relative disparities is essential for accurate interpretation of trends.
+Understanding both absolute and relative disparities is essential for accurate interpretation of trends — and, as shown below, these two measures can move in opposite directions in the same year.
 
 ---
 
@@ -56,6 +56,14 @@ Findings are descriptive and should not be interpreted as causal.
 - The increase in relative disparity in 2023 appears to be driven by sharper post-pandemic declines in mortality among White mothers rather than a proportional worsening among Black mothers.
 - Across the study period, Black maternal mortality was consistently approximately three times higher than White maternal mortality.
 
+### Post-2022 Findings: What This Analysis Adds
+
+**1. The 2023 ratio spike (3.20).** The Black–White mortality ratio reached 3.20 in 2023 — the highest point in the study period. Because prior reporting was based on the 2022 CDC data release, this spike does not appear in existing coverage of racial disparities in maternal mortality.
+
+**2. Absolute/relative disparity divergence.** In 2023, the absolute gap between Black and White maternal mortality rates held steady at 1.1 (per 100,000), while the relative ratio spiked to 3.20. This is not Simpson's Paradox — it is a case of absolute and relative disparity measures moving independently because both underlying rates declined, but the White rate declined faster in proportional terms. When the denominator (White mortality) falls faster than the numerator (Black mortality), the ratio rises even as the raw gap stays flat. This distinction matters for interpretation: a headline citing only the stable absolute gap would miss a worsening relative disparity, and vice versa.
+
+**3. [AIAN finding — need details].** [Placeholder: describe what the multi-race chart shows for American Indian/Alaska Native maternal mortality — e.g., highest overall rate, a distinct trend inconsistent with the Black/White pattern, high year-to-year volatility, etc.]
+
 ---
 
 ## Repository Contents
@@ -65,7 +73,7 @@ Findings are descriptive and should not be interpreted as causal.
 
 ---
 
-  ## Technical Stack
+## Technical Stack
 
 - Python (pandas, numpy, statsmodels, matplotlib)
 - Ordinary Least Squares regression
@@ -74,7 +82,6 @@ Findings are descriptive and should not be interpreted as causal.
 
 ## Limitations
 - CDC WONDER data are aggregated and do not allow individual-level risk adjustment.
-
 - Potential reporting delays or classification changes may affect recent years.
-
 - Race categories are restricted to available reporting classifications.
+- AIAN and other smaller-population racial categories are subject to greater year-to-year volatility due to smaller absolute case counts.
