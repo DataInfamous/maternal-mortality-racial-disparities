@@ -62,9 +62,11 @@ Findings are descriptive and should not be interpreted as causal.
 
 **2. Absolute/relative disparity divergence.** In 2023, the absolute gap between Black and White maternal mortality rates held steady at 1.1 (per 100,000), while the relative ratio spiked to 3.20. This is not Simpson's Paradox — it is a case of absolute and relative disparity measures moving independently because both underlying rates declined, but the White rate declined faster in proportional terms. When the denominator (White mortality) falls faster than the numerator (Black mortality), the ratio rises even as the raw gap stays flat. This distinction matters for interpretation: a headline citing only the stable absolute gap would miss a worsening relative disparity, and vice versa.
 
-**3. AIAN maternal mortality: elevated but methodology-dependent. American Indian/Alaska Native (AIAN) age-adjusted maternal mortality rates ranged from 0.7 to 2.3 per 100,000 across 2018–2024 in this dataset, consistently exceeding White rates (roughly 1.4x to 2.6x higher each year) but remaining below Black rates in every year studied. The gap between AIAN and Black narrowed sharply during the 2021 pandemic peak (2.3 vs. 2.4), nearly converging, before both declined in subsequent years.
+**3. AIAN maternal mortality: elevated but methodology-dependent.** American Indian/Alaska Native (AIAN) age-adjusted maternal mortality rates ranged from 0.7 to 2.3 per 100,000 across 2018–2024 in this dataset, consistently exceeding White rates (roughly 1.4x to 2.6x higher each year) but remaining below Black rates in every year studied. The gap between AIAN and Black narrowed sharply during the 2021 pandemic peak (2.3 vs. 2.4), nearly converging, before both declined in subsequent years.
 
-This finding is sensitive to data source and methodology. A parallel NCHS report using the pregnancy-checkbox identification method (rather than this analysis's ICD-10 O00-O99 underlying-cause approach) ranks AIAN as the highest-mortality group nationally, not second to Black. Racial misclassification on death certificates is a documented issue for AIAN populations specifically, and CDC WONDER's own methodology notes flag this as a known limitation. Given small annual death counts for AIAN (14-45 per year in this dataset), the two methodologies' divergent rankings likely reflect measurement sensitivity rather than a true disagreement about the underlying disparity, both approaches confirm AIAN mortality is substantially elevated relative to White.
+![Maternal Mortality Rate by Race, 2018–2024](maternal_mortality_by_race_2018-2024.png)
+
+This finding is sensitive to data source and methodology. A parallel NCHS report using the pregnancy-checkbox identification method (rather than this analysis's ICD-10 O00-O99 underlying-cause approach) ranks AIAN as the highest-mortality group nationally, not second to Black. Racial misclassification on death certificates is a documented issue for AIAN populations specifically, and CDC WONDER's own methodology notes flag this as a known limitation. Given small annual death counts for AIAN (14-45 per year in this dataset), the two methodologies' divergent rankings likely reflect measurement sensitivity rather than a true disagreement about the underlying disparity — both approaches confirm AIAN mortality is substantially elevated relative to White.
 
 ---
 
@@ -72,6 +74,8 @@ This finding is sensitive to data source and methodology. A parallel NCHS report
 
 - `maternal_mortality_racial_disparities_2028_2024.ipynb`  
   Complete analysis notebook with visualizations and regression modeling.
+- `maternal_mortality_by_race_2018-2024.png`  
+  Multi-race age-adjusted maternal mortality trend chart, referenced in Finding #3.
 
 ---
 
